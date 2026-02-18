@@ -1,0 +1,29 @@
+.contenedor {
+    background-color: rgb(6, 1, 24);
+    border-radius: 10px;
+    color: white;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.btn-hover {
+    margin-top: 3px;
+    padding: 5px 3px;
+    background-color: #142675;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+    .btn-hover:hover {
+        transform: scale(1.2); /* Aumentar tamaño */
+        background-color: #1a1475; /* Cambiar color al pasar el cursor */
+    }
